@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import App from './App'
+function App() {
+  return (
+    <div style={{ color: "white", padding: "40px" }}>
+      <h1>S & S Fashion House</h1>
+      <p>Website is live now.</p>
+    </div>
+  );
+}
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename="/S-S-FASHION-HOUSE">
-    <App />
-  </BrowserRouter>
-)
+export default App;
