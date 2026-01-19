@@ -1,0 +1,7 @@
+{
+  "name": "S & S Fashion House",
+  "description": "Premium luxury fashion eCommerce with smart Admin controls and PDF invoicing.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
