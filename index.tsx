@@ -1,11 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
 
-const root = ReactDOM.createRoot(document.getElementById("root")!);
-
-root.render(
-  <div style={{ background: "#111", minHeight: "100vh", color: "white", padding: "40px" }}>
-    <h1>S & S Fashion House</h1>
-    <p>Website is live. Rendering test successful.</p>
-  </div>
-);
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
